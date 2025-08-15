@@ -40,6 +40,7 @@ export default function Home() {
 
   return (
     <div className={styles.login}>
+      <div className={styles.loginBox}>
       <h1 className={styles.titulo}>
         <span className={styles.ninten}>ninten</span>
         <span className={styles.games}>games</span>
@@ -68,6 +69,7 @@ export default function Home() {
       <button className={styles.boton} onClick={handleLogin}>
         Ingresar
       </button>
+    </div>
     </div>
   );
 }

@@ -66,7 +66,7 @@ export default function Dashboard() {
           games.map((juego) => (
             <div key={juego.id} className={styles.juegoItem}>
               <Image
-                src={juego.cover || "/image.png"}
+                src={juego.cover || "/cm.png"}
                 alt={juego.title}
                 width={80}
                 height={80}
