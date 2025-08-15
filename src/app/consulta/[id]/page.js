@@ -70,7 +70,7 @@ export default function Consultar() {
         </div>
         <div className={styles.campo}>
           <div className={styles.label}>Version:</div>
-          <div className={styles.valor}>{juego.Version}</div>
+          <div className={styles.valor}>{juego.version}</div>
         </div>
       </div>
     </div>
